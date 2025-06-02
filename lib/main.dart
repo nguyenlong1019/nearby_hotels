@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:nearby_hotels/src/home2.dart';
-import 'package:mapbox_maps_flutter/mapbox_maps_flutter.dart';
+import 'package:nearby_hotels/src/home.dart';
 
 
 void main() {
-  const String ACCESS_TOKEN = 'sk.eyJ1IjoibGlnaHRuZW9uIiwiYSI6ImNtYmR4M2x6bzI3bzYya3M2Y2JkeW85YXIifQ.RwLEVrReBvpVGFtZOF8Z-Q';
+  // const String ACCESS_TOKEN = 'sk.eyJ1IjoibGlnaHRuZW9uIiwiYSI6ImNtYmR4M2x6bzI3bzYya3M2Y2JkeW85YXIifQ.RwLEVrReBvpVGFtZOF8Z-Q';
   WidgetsFlutterBinding.ensureInitialized();
-  MapboxOptions.setAccessToken(ACCESS_TOKEN);
+  // MapboxOptions.setAccessToken(ACCESS_TOKEN);
   runApp(const MyApp());
 }
 
